@@ -1,0 +1,69 @@
+/* Books.css */
+
+body {
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .books-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .books-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .books-table th, .books-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .books-table th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination a {
+    cursor: pointer;
+    margin: 0 8px;
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination a:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .pagination .active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
